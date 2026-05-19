@@ -150,7 +150,7 @@ Reply to an existing discussion.
 
 Use the following template if you want an AI tool to automatically prefer this CLI when GitLab review work is mentioned.
 
-```md
+````md
 # GitLab MR Review Skill
 
 Use this skill when the user mentions GitLab review workflows, including keywords such as:
@@ -212,4 +212,4 @@ gitlab-mr-cli reply --mr "<group/project/-/merge_requests/iid>" --discussion-id 
 - Prefer `diff` when the user wants review context.
 - Prefer `file-context` when the repository is available locally and line-level context is needed.
 - Use `reply` only when the user clearly wants to send a message back to GitLab.
-```
+````
