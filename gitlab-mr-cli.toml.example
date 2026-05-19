@@ -1,0 +1,5 @@
+base_url = "http://gitlab.example.com"
+token = "glpat-xxxxxxxxxxxxxxxxxxxx"
+
+# Optional
+mr = "group/project/-/merge_requests/123"
